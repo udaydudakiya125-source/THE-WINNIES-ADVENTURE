@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winnie's Adventures - Childminding Service in Aylesbury</title>
+    <meta name="description"
+        content="Winnie's Adventures is a warm, nurturing childminding service at 70 Chaundler Drive, Aylesbury (HP19 9DP) launching September 2026. Explore our story-led learning, healthy vegetarian menus, fees, and funding options.">
+    <link rel="stylesheet" href="style.css?v=42">
+    <!-- Flatpickr for custom compact date selector -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+</head>
+
+<body>
+    <!-- Sticky Header & Navigation -->
+    <header class="main-header">
+        <div class="header-container">
+            <div class="logo-wrapper">
+                <a href="#home">
+                    <img src="images/logo.png" alt="Winnie's Adventures Logo Badge" class="logo-img">
+                </a>
+            </div>
+
+            <!-- Mobile Burger Toggle Button -->
+            <button class="burger-menu-btn" aria-label="Toggle Navigation Menu" aria-controls="main-nav"
+                aria-expanded="false">
+                <span class="burger-bar"></span>
+                <span class="burger-bar"></span>
+                <span class="burger-bar"></span>
+            </button>
+
+            <!-- Desktop / Mobile Navigation Menu -->
+            <nav id="main-nav" class="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="#about" class="nav-link">ABOUT US</a></li>
+                    <li><a href="#learning" class="nav-link">LEARNING &amp; <br>DEVELOPMENT</a></li>
+                    <li><a href="#gallery" class="nav-link">GALLERY</a></li>
+                    <li><a href="#menu" class="nav-link">MENU</a></li>
+                    <li><a href="#fees" class="nav-link">FEES AND <br>FUNDING</a></li>
+                    <li><a href="#booking" class="nav-link">BOOK A <br>SHOWAROUND</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page 1: Home / Landing Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-overlay" aria-hidden="true"></div>
+            <!-- Playful School-Themed Background Doodles/Decorations -->
+            <div class="hero-decorations" aria-hidden="true">
+                <!-- Sun in top right -->
+                <div class="decor-item sun">
+                    <svg width="85" height="85" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="50" cy="50" r="20" fill="#fde68a" stroke="#f59e0b" stroke-width="2"
+                            stroke-dasharray="3 3" />
+                        <path
+                            d="M50 10V22M50 78V90M10 50H22M78 50H90M21.7 21.7L30.2 30.2M69.8 69.8L78.3 78.3M78.3 21.7L69.8 30.2M30.2 69.8L21.7 78.3"
+                            stroke="#f59e0b" stroke-width="2.5" stroke-linecap="round" />
+                    </svg>
+                </div>
+                <!-- Fluffy clouds -->
+                <div class="decor-item cloud-1">
+                    <svg width="120" height="70" viewBox="0 0 120 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M30 45C30 40 34 36 39 36C40.6 36 42.1 36.4 43.5 37.2C45.7 31.2 51.5 27 58.2 27C65.8 27 72 32.4 73.3 39.6C74.6 37.4 77 36 79.8 36C84.7 36 88.7 40 88.7 45C88.7 45.3 88.7 45.6 88.6 45.9C91.7 46.8 93.9 49.5 93.9 52.9C93.9 56.9 90.6 60.2 86.6 60.2H28.4C24.4 60.2 21.1 56.9 21.1 52.9C21.1 49.1 24.1 45.9 27.8 45.2C27.8 45.1 27.8 45 27.8 44.8C27.8 41 30.9 37.9 34.7 37.9C36.4 37.9 38 38.5 39.2 39.6"
+                            fill="#ffffff" fill-opacity="0.92" stroke="#cbd5e1" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div class="decor-item cloud-2">
+                    <svg width="90" height="55" viewBox="0 0 90 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M25 35C25 31.1 28.1 28 32 28C33.3 28 34.5 28.3 35.6 28.9C37.4 24.3 41.9 21 47.2 21C53.1 21 58 25.2 59 30.8C60 29.1 61.9 28 64.1 28C67.9 28 71 31.1 71 35C71 35.2 71 35.5 70.9 35.7C73.4 36.4 75.1 38.5 75.1 41.1C75.1 44.2 72.5 46.8 69.4 46.8H23.7C20.6 46.8 18 44.2 18 41.1C18 38.1 20.4 35.7 23.3 35.2"
+                            fill="#ffffff" fill-opacity="0.85" stroke="#cbd5e1" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <!-- Playful Stars -->
+                <div class="decor-item star-1">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2L14.8 8.6L22 9.2L16.5 14L18.2 21L12 17.2L5.8 21L7.5 14L2 9.2L9.2 8.6L12 2Z"
+                            fill="#fef08a" stroke="#d97706" stroke-width="1.5" />
+                    </svg>
+                </div>
+                <div class="decor-item star-2">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2L14.8 8.6L22 9.2L16.5 14L18.2 21L12 17.2L5.8 21L7.5 14L2 9.2L9.2 8.6L12 2Z"
+                            fill="#fde68a" stroke="#d97706" stroke-width="1" />
+                    </svg>
+                </div>
+                <div class="decor-item cloud-3">
+                    <svg width="100" height="60" viewBox="0 0 120 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M30 45C30 40 34 36 39 36C40.6 36 42.1 36.4 43.5 37.2C45.7 31.2 51.5 27 58.2 27C65.8 27 72 32.4 73.3 39.6C74.6 37.4 77 36 79.8 36C84.7 36 88.7 40 88.7 45C88.7 45.3 88.7 45.6 88.6 45.9C91.7 46.8 93.9 49.5 93.9 52.9C93.9 56.9 90.6 60.2 86.6 60.2H28.4C24.4 60.2 21.1 56.9 21.1 52.9C21.1 49.1 24.1 45.9 27.8 45.2C27.8 45.1 27.8 45 27.8 44.8C27.8 41 30.9 37.9 34.7 37.9C36.4 37.9 38 38.5 39.2 39.6"
+                            fill="#ffffff" fill-opacity="0.92" stroke="#cbd5e1" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div class="decor-item cloud-4">
+                    <svg width="80" height="50" viewBox="0 0 90 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M25 35C25 31.1 28.1 28 32 28C33.3 28 34.5 28.3 35.6 28.9C37.4 24.3 41.9 21 47.2 21C53.1 21 58 25.2 59 30.8C60 29.1 61.9 28 64.1 28C67.9 28 71 31.1 71 35C71 35.2 71 35.5 70.9 35.7C73.4 36.4 75.1 38.5 75.1 41.1C75.1 44.2 72.5 46.8 69.4 46.8H23.7C20.6 46.8 18 44.2 18 41.1C18 38.1 20.4 35.7 23.3 35.2"
+                            fill="#ffffff" fill-opacity="0.85" stroke="#cbd5e1" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div class="decor-item star-3">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2L14.8 8.6L22 9.2L16.5 14L18.2 21L12 17.2L5.8 21L7.5 14L2 9.2L9.2 8.6L12 2Z"
+                            fill="#fde68a" stroke="#d97706" stroke-width="1" />
+                    </svg>
+                </div>
+                <div class="decor-item star-4">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2L14.8 8.6L22 9.2L16.5 14L18.2 21L12 17.2L5.8 21L7.5 14L2 9.2L9.2 8.6L12 2Z"
+                            fill="#fef08a" stroke="#d97706" stroke-width="1.5" />
+                    </svg>
+                </div>
+                <div class="decor-item star-5">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2L14.8 8.6L22 9.2L16.5 14L18.2 21L12 17.2L5.8 21L7.5 14L2 9.2L9.2 8.6L12 2Z"
+                            fill="#fef08a" stroke="#d97706" stroke-width="1.5" />
+                    </svg>
+                </div>
+                <div class="decor-item star-6">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2L14.8 8.6L22 9.2L16.5 14L18.2 21L12 17.2L5.8 21L7.5 14L2 9.2L9.2 8.6L12 2Z"
+                            fill="#fde68a" stroke="#d97706" stroke-width="1" />
+                    </svg>
+                </div>
+                <!-- Paper Airplane -->
+                <div class="decor-item paper-plane">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21 3L3 10.5L9.75 14.25L18 6L9.75 14.25L13.5 21L21 3Z" fill="#ffffff" stroke="#47663b"
+                            stroke-width="1.5" stroke-linejoin="round" />
+                        <path d="M9.75 14.25V18.75L12 16.5" stroke="#47663b" stroke-width="1.5"
+                            stroke-linejoin="round" />
+                    </svg>
+                </div>
+
+            </div>
+
+            <div class="hero-container">
+                <!-- Left Column: Vine Announcement Container -->
+                <div class="announcement-wrapper reveal-on-scroll slide-left">
+                    <div class="announcement-box">
+                        <p class="brush-text text-announcement">
+                            CHILDMINDING<br>
+                            SERVICE- LAUNCHING<br>
+                            SEPTEMBER 2026<br>
+                            70 CHAUNDLER DRIVE,<br>
+                            HP19 9DP, AYLESBURY.<br>
+                            OPEN THE DOOR TO<br>
+                            SEE WHAT IS IN<br>
+                            STORE.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Right Column: Wood Text Title and Archway Image -->
+                <div class="hero-brand reveal-on-scroll slide-right">
+                    <div class="wood-logo-wrapper">
+                        <img src="images/text logo.png" alt="Winnie's Adventures Logo Title" class="wood-logo-img">
+                        <h1 class="visually-hidden">Winnie's Adventures</h1>
+                    </div>
+                    <div class="stone-archway-wrapper">
+                        <img src="images/3.png"
+                            alt="Illustration of a mother and child walking towards a cottage door enclosed in a stone archway"
+                            class="archway-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Page 2: About Us Section -->
+        <section id="about" class="forest-section">
+            <div class="overlay-card">
+                <div class="section-header about-header reveal-on-scroll fade-up">
+                    <h2 class="benguiat-bold">HOW THE JOURNEY BEGAN.......</h2>
+                    <div class="inset-road-wrapper">
+                        <img src="images/1.png" alt="Winding country road through hills" class="inset-road-img">
+                    </div>
+                </div>
+
+                <div class="section-body brush-text centered-text reveal-on-scroll fade-up delay-200">
+                    <p>My name is Shivani Suralia, founder of Winnie's Adventures alongside co-founder Parag Suralia. My
+                        journey in childcare began while I was still at school, when I completed my work experience
+                        placement in a nursery. From that moment, I knew early years education was my passion. I
+                        continued my studies to build my knowledge, skills, and understanding of child development, and
+                        since then I have never looked back. Supporting children, helping them grow, and making a
+                        positive difference in their lives has always been at the heart of everything I do.</p>
+
+                    <p>I completed my BA honours in Early Childhood Studies in 2009, and hold a diploma in Counselling
+                        children and Adolescents. I stepped into the childcare industry in 2009 and since worked across
+                        a wide range of settings, including large chain nurseries, independent nurseries, social
+                        enterprises, and charity organisations. Over the past 15 years, I have gained extensive
+                        experience within reputable early years settings, with more than 10 years spent in management
+                        roles leading teams and supporting high-quality childcare provision.</p>
+
+                    <p>In 2026, I made the bold decision to leave nursery management and begin my journey as a
+                        childminder. Over the years, I began to feel that the true care element within larger nursery
+                        settings was slowly being lost due to increasing numbers, pressures, and demands. Children were
+                        at risk of becoming just another number, and the simple joy, creativity, and magic of childhood
+                        learning was beginning to fade.</p>
+
+                    <p>Childminding brought me back to what childcare should truly be about — love, warmth, nurturing
+                        relationships, and individual care. I love that childminding allows children to grow and learn
+                        within a warm, comforting home environment where they feel safe, valued, and genuinely cared
+                        for. It also enables me to provide flexible, supportive childcare for working families, building
+                        strong partnerships with parents while ensuring every child receives the attention,
+                        encouragement, and emotional security they deserve.</p>
+
+                    <p>At Winnie's Adventures, I believe the early years are the most important foundation of a child's
+                        life. Above all else, children need love, care, fun, and a sense of belonging — and that is
+                        exactly the environment I aim to create every single day.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Page 3: Learning Through Stories Section -->
+        <section id="learning" class="forest-section">
+            <div class="overlay-card">
+                <div class="section-header inline-header reveal-on-scroll fade-up">
+                    <h2 class="benguiat-bold">LEARNING THROUGH STORIES.</h2>
+                    <img src="images/books.png" alt="Open vintage book icon" class="header-icon-img">
+                </div>
+
+                <div class="section-body brush-text centered-text reveal-on-scroll fade-up delay-200">
+                    <p>A story opens the mind and takes children into worlds beyond imagination. At Winnie's Adventures,
+                        we bring stories to life by creating innovative and exciting adventures inspired by each
+                        individual book. Through fun, hands-on, and meaningful experiences, we make learning memorable,
+                        engaging, and full of wonder.</p>
+
+                    <p>Planning at Winnie's Adventures is a balance between adult-led and child-led activities. We
+                        believe children are our teachers — they guide us towards their interests and what they are
+                        curious to learn about. For example, if children develop an interest in dinosaurs, we use this
+                        as an opportunity to extend their learning through creative experiences, play, and exploration.
+                    </p>
+
+                    <p>Our role as educators is to act as facilitators, scaffolding children's learning and supporting
+                        them in areas where they may need encouragement or further development. Learning is never rushed
+                        or treated as a checklist. We do not believe a child has mastered a skill simply because they
+                        have completed it once. Instead, children are given the time, space, and opportunities to
+                        explore, practise, and build confidence until they truly master and enjoy the learning
+                        experience.</p>
+
+                    <p>Planning will be shared with parents so they can understand what is being planned for their child
+                        and how learning can be continued or extended at home. By working collaboratively together,
+                        parents and educators can support children's development more effectively, helping them grow in
+                        confidence and achieve their full potential at their own pace.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Page 4: Gallery Section -->
+        <section id="gallery" class="forest-section">
+            <div class="overlay-card wider-card">
+                <div class="section-header reveal-on-scroll fade-up">
+                    <h2 class="benguiat-bold">LOOK AT THE ADVENTURE AWAITING AND MORE....</h2>
+                </div>
+
+                <div class="gallery-collage">
+                    <!-- Left: Tall portrait image -->
+                    <div class="gallery-left">
+                        <div class="polaroid tilt-left reveal-on-scroll slide-left delay-200" id="gallery-pic-1">
+                            <div class="polaroid-inner">
+                                <img src="images/gallery1.png" alt="Sensory play setup with parrot book and bugs">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right: 2x2 grid of landscape images -->
+                    <div class="gallery-right">
+                        <div class="polaroid tilt-right gallery-up reveal-on-scroll fade-up delay-100"
+                            id="gallery-pic-2">
+                            <div class="polaroid-inner">
+                                <img src="images/gallery2.png" alt="Activity chair with colorful stack cups">
+                            </div>
+                        </div>
+                        <div class="polaroid tilt-left-slight gallery-down reveal-on-scroll fade-up delay-200"
+                            id="gallery-pic-3">
+                            <div class="polaroid-inner">
+                                <img src="images/gallery3.png" alt="Play area rug with feelings book and toys">
+                            </div>
+                        </div>
+                        <div class="polaroid tilt-right-slight gallery-up reveal-on-scroll fade-up delay-300"
+                            id="gallery-pic-4">
+                            <div class="polaroid-inner">
+                                <img src="images/gallery4.png" alt="Sensory leaves table setup near curtains">
+                            </div>
+                        </div>
+                        <div class="polaroid tilt-left-slight gallery-down reveal-on-scroll fade-up delay-400"
+                            id="gallery-pic-5">
+                            <div class="polaroid-inner">
+                                <img src="images/gallery5.png" alt="Soft-fabric playpen with pastel balls">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Page 5: Menu Section -->
+        <section id="menu" class="forest-section">
+            <div class="overlay-card">
+                <div class="section-header inline-header reveal-on-scroll fade-up">
+                    <h2 class="benguiat-bold">EATING RIGHT, STAYING BRIGHT</h2>
+                    <img src="images/menu.png" alt="Tomato pasta plate icon" class="header-icon-img circle-icon">
+                </div>
+
+                <!-- Vegetarian Food Intro Paragraphs -->
+                <div class="section-body brush-text centered-text intro-paragraphs reveal-on-scroll fade-up delay-200">
+                    <p>Eating well is key to living a healthy, balanced life, so why not begin building those habits
+                        from an early age? Positive eating habits developed during childhood can have long-lasting
+                        benefits into adulthood, helping to support better health, more energy, reduced health risks,
+                        and overall well-being.</p>
+
+                    <p>At Winnie's Adventures, we provide warm, nutritious, fresh meals prepared with care
+                        each day for our primary school children. Being located in the heart of London, we celebrate
+                        diversity by offering a well-balanced menu that includes both high-quality meat and hearty
+                        vegetarian options. Our meals are designed to be rich in essential vitamins, minerals, and
+                        protein that help support children's growth, focus, immune systems, and energy levels
+                        throughout their busy school days.</p>
+
+                    <p>Introducing children to a variety of healthy, culturally diverse foods from an early age
+                        encourages positive
+                        eating habits and helps them build a healthy relationship with food for the future.</p>
+
+                    <p>We believe school mealtimes should be comforting, enjoyable, and nourishing, which is why we do
+                        not
+                        serve reheated food, leftovers from the previous day, or cold meals.</p>
+
+                    <p class="slogan-text">Healthy habits today, brighter futures tomorrow 💛</p>
+                    <p class="sub-slogan-text">Have a look at some of our delicious meals.</p>
+                </div>
+
+                <!-- Interactive Menu Tabs -->
+                <div class="menu-tabs-wrapper reveal-on-scroll fade-up delay-300">
+                    <div class="tabs-header">
+                        <button class="menu-tab-btn active" data-menu="menu-1">MENU 1</button>
+                        <button class="menu-tab-btn" data-menu="menu-2">MENU 2</button>
+                        <button class="menu-tab-btn" data-menu="menu-3">MENU 3</button>
+                    </div>
+
+                    <div class="tabs-content-box">
+                        <!-- Menu 1 Panel -->
+                        <div id="menu-1" class="tab-panel active">
+                            <h3 class="menu-panel-title benguiat-bold">Fresh Daily Menu - Plan 1</h3>
+                            <div class="table-responsive">
+                                <table class="menu-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Meal Time</th>
+                                            <th>Monday</th>
+                                            <th>Tuesday</th>
+                                            <th>Wednesday</th>
+                                            <th>Thursday</th>
+                                            <th>Friday</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="meal-time">Breakfast<br>(7:30-8:30a.m.)</td>
+                                            <td>Variety of cereals, with fruits, porridge.</td>
+                                            <td>Variety of cereals, with fruits, porridge.</td>
+                                            <td>Variety of cereals, with fruits, porridge.</td>
+                                            <td>Variety of cereals, with fruits, porridge.</td>
+                                            <td>Variety of cereals, with fruits, porridge.</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="meal-time">Snack<br>(10:00a.m.)</td>
+                                            <td>Melon melody</td>
+                                            <td>Crackers with soft cheese and cucumbers</td>
+                                            <td>Banana and Strawberries</td>
+                                            <td>Breadstick with sour cream and chive dip</td>
+                                            <td>Rice cakes with carrot sticks</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="meal-time">Lunch<br>(11:30a.m.)</td>
+                                            <td>Vegetable pasta with garlic bread</td>
+                                            <td>Chickpea Curry with Rice and salad</td>
+                                            <td>Stir fry with vegetables</td>
+                                            <td>Vegetable pie with mashed potatoes and peas</td>
+                                            <td>Vegetable Biryani with raita</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="meal-time">Pudding</td>
+                                            <td>Yoghurt</td>
+                                            <td>Oat pancake with Banana, drizzle of honey.</td>
+                                            <td>Fruit Cocktail</td>
+                                            <td>Fruit yoghurt</td>
+                                            <td>Peaches</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="meal-time">Snack<br>(2:00p.m.)</td>
+                                            <td>Tortilla chips with salsa dip</td>
+                                            <td>Apples and pears</td>
+                                            <td>Berry Smoothie</td>
+                                            <td>Crackers with cheese</td>
+                                            <td>Oranges</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="meal-time">Tea time<br>(4:00p.m.)</td>
+                                            <td>Quinoa Protein Nuggets with sweet potato chips</td>
+                                            <td>Creamy broccoli and spinach soup with bread</td>
+                                            <td>Cheese and onion Pastry with vegetable sticks</td>
+                                            <td>Five bean Quesadillas with Avocado</td>
+                                            <td>Make your own pizza</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <!-- Menu 2 Panel (Hidden by default) -->
+                        <div id="menu-2" class="tab-panel">
+                            <h3 class="menu-panel-title benguiat-bold">Fresh Daily Menu - Plan 2</h3>
+                            <div class="table-responsive">
+                                <table class="menu-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Meal Time</th>
+                                            <th>Monday</th>
+                                            <th>Tuesday</th>
+                                            <th>Wednesday</th>
+                                            <th>Thursday</th>
+                                            <th>Friday</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="meal-time">Breakfast<br>(7:30-8:30a.m.)</td>
+                                            <td>Variety of cereals, with fruits, porridge.</td>
+                                            <td>Variety of cereals, with fruits, porridge.</td>
+                                            <td>Variety of cereals, with fruits, porridge.</td>
+                                            <td>Variety of cereals, with fruits, porridge.</td>
+                                            <td>Variety of cereals, with fruits, porridge.</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="meal-time">Snack<br>(10:00a.m.)</td>
+                                            <td>Banana and Strawberry smoothie</td>
+                                            <td>Cucumber and carrot sticks with dips</td>
+                                            <td>Apple and pears</td>
+                                            <td>Yoghurt with berries and oats</td>
+                                            <td>Banana pancakes</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="meal-time">Lunch<br>(11:30a.m.)</td>
+                                            <td>Mini burgers with sweet potato fries</td>
+                                            <td>Cous Cous with mediterranean vegetables and hollumi</td>
+                                            <td>Creamy Riscotto with mushroom and spinach accompanied by salad</td>
+                                            <td>Jacket potatoes with baked beans and cheese</td>
+                                            <td>Quorn and vegetable casserole</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="meal-time">Pudding</td>
+                                            <td>Banana slices</td>
+                                            <td>Yoghurt</td>
+                                            <td>Melon melody</td>
+                                            <td>Fruit yoghurt</td>
+                                            <td>Apple and pears</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="meal-time">Snack<br>(2:00p.m.)</td>
+                                            <td>Rice cakes with soft cheese</td>
+                                            <td>Fruit platter</td>
+                                            <td>Breadstick with dips</td>
+                                            <td>Fruit cocktail</td>
+                                            <td>Berry smoothie</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="meal-time">Tea time<br>(4:00p.m.)</td>
+                                            <td>Omelette with tomatoes and cucumber on the side</td>
+                                            <td>Vegetable fritters with dips</td>
+                                            <td>Grilled cheese and pesto sandwich</td>
+                                            <td>Pesto &amp; Cream Cheese Bagels with Quorn Roast Mini Fillets</td>
+                                            <td>Mac and Cheese with hidden vegetable sauce</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <!-- Menu 3 Panel (Hidden by default) -->
+                        <div id="menu-3" class="tab-panel">
+                            <h3 class="menu-panel-title benguiat-bold">Fresh Daily Menu - Plan 3</h3>
+                            <div class="table-responsive">
+                                <table class="menu-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Meal Time</th>
+                                            <th>Monday</th>
+                                            <th>Tuesday</th>
+                                            <th>Wednesday</th>
+                                            <th>Thursday</th>
+                                            <th>Friday</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="meal-time">Breakfast<br>(7:30-8:30a.m.)</td>
+                                            <td>Variety of cereals, with fruits, porridge.</td>
+                                            <td>Variety of cereals, with fruits, porridge.</td>
+                                            <td>Variety of cereals, with fruits, porridge.</td>
+                                            <td>Variety of cereals, with fruits, porridge.</td>
+                                            <td>Variety of cereals, with fruits, porridge.</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="meal-time">Snack<br>(10:00a.m.)</td>
+                                            <td>Toast bread with soft cheese</td>
+                                            <td>Peaches and Plums</td>
+                                            <td>Crackers with soft cheese and cucumber sticks</td>
+                                            <td>Oranges and Plums</td>
+                                            <td>Breadsticks with carrot sticks</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="meal-time">Lunch<br>(11:30a.m.)</td>
+                                            <td>Vegetable and Quorn cottage pie accompanied by peas</td>
+                                            <td>Quorn Swedish meatballs with Spaghetti, salad.</td>
+                                            <td>Toad in hole with mashed potatoes and peas</td>
+                                            <td>Daal with rice and cucumber sticks</td>
+                                            <td>Stir fry noodles</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="meal-time">Pudding</td>
+                                            <td>Strawberries</td>
+                                            <td>Yoghurt with banana</td>
+                                            <td>Fruit cocktail</td>
+                                            <td>Fruit yoghurt</td>
+                                            <td>Melon Melody</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="meal-time">Snack<br>(2:00p.m.)</td>
+                                            <td>Fruit platter</td>
+                                            <td>Rice cakes with soft cheese</td>
+                                            <td>Banana slice with berries</td>
+                                            <td>Crackers with hummus</td>
+                                            <td>Oat bites</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="meal-time">Tea time<br>(4:00p.m.)</td>
+                                            <td>Leek soup with garlic bread</td>
+                                            <td>Make your own pizza</td>
+                                            <td>Vegetable and beans Enchiladas</td>
+                                            <td>Tomato pasta with vegetables</td>
+                                            <td>Tortilla chips with salsa sauce</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <p class="menu-note brush-text" style="font-size: 0.85rem; margin-top: 25px; color: #555; text-align: center; max-width: 900px; margin-left: auto; margin-right: auto; line-height: 1.4;">
+                            <strong>Note:</strong> Due to delivery, foods being out of stock, or other reasons the meal may change or vary slightly on some days. The food is prepared on a premise that has eggs, peanuts therefore please let us know of any strict allergies.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Page 6: Fees & Funding Section -->
+        <section id="fees" class="forest-section">
+            <div class="overlay-card wider-card">
+                <div class="section-header inline-header reveal-on-scroll fade-up">
+                    <h2 class="benguiat-bold">WHERE YOUR INVESTMENT BECOMES YOUR CHILD'S FUTURE</h2>
+                    <img src="images/2.png" alt="Document calculator and graduation cap icon" class="header-icon-img">
+                </div>
+
+                <div class="fees-container reveal-on-scroll fade-up delay-200">
+                    
+                    <!-- Registration Banner -->
+                    <div class="registration-banner brush-text">
+                        <strong>Registration Fee:</strong> £70 non-refundable registration fee to secure your child’s place within the setting.
+                    </div>
+
+                    <!-- Funded Sessions Table -->
+                    <h3 class="fees-section-title benguiat-bold">Funded Sessions – Term Time Only (38 Weeks)</h3>
+                    <div class="table-responsive">
+                        <table class="menu-table fees-table">
+                            <thead>
+                                <tr>
+                                    <th>Session</th>
+                                    <th>Integrated Package Fee</th>
+                                    <th>What’s Included</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="fees-time">9:00am – 3:00pm<br><span class="days">(5 Days Per Week)</span></td>
+                                    <td class="fees-price">£4.45 per day</td>
+                                    <td class="fees-included">Nappies & wipes<br>Cow’s milk with snacks<br>Extra-curricular activities<br>Fresh warm vegetarian meals</td>
+                                </tr>
+                                <tr>
+                                    <td class="fees-time">8:00am – 1:00pm<br><span class="days">(3 Days Per Week)</span></td>
+                                    <td class="fees-price">£3.45 per day</td>
+                                    <td class="fees-included">Nappies & wipes<br>Cow’s milk with snacks<br>Extra-curricular activities<br>Fresh warm vegetarian meals</td>
+                                </tr>
+                                <tr>
+                                    <td class="fees-time">1:00pm – 6:00pm<br><span class="days">(3 Days Per Week)</span></td>
+                                    <td class="fees-price">£2.45 per day</td>
+                                    <td class="fees-included">Nappies & wipes<br>Cow’s milk with snacks<br>Extra-curricular activities<br>Fresh warm vegetarian meals</td>
+                                </tr>
+                                <tr>
+                                    <td class="fees-time">8:00am – 6:00pm<br><span class="days">(3 Days Per Week)</span></td>
+                                    <td class="fees-price">£6.45 per day</td>
+                                    <td class="fees-included">Nappies & wipes<br>Cow’s milk with snacks<br>Extra-curricular activities<br>Fresh warm vegetarian meals</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Info Cards -->
+                    <div class="fees-cards-wrapper">
+                        <div class="info-card brush-text">
+                            <h4 class="benguiat-bold">Important Funding Information</h4>
+                            <ul class="funding-list">
+                                <li>Funded hours are offered across 38 weeks per year only and are not stretched across the full year.</li>
+                                <li>Any childcare required outside funded weeks will be charged at the private hourly rate.</li>
+                                <li>Funded hours cannot be used during weekends.</li>
+                            </ul>
+                        </div>
+                        <div class="info-card brush-text">
+                            <h4 class="benguiat-bold">Optional Integrated Package</h4>
+                            <p>Parents may choose to opt out of the integrated package.</p>
+                            <p>If opting out, families must provide meals and snacks that follow the setting’s Lunch Box Guidelines to ensure: Healthy balanced nutrition, compliance with allergy and dietary requirements, and safe food practices for all children.</p>
+                            <p>Our vegetarian meals are carefully prepared to support children’s growing bodies and developing digestive systems whilst encouraging healthy eating habits from an early age.</p>
+                        </div>
+                    </div>
+
+                    <!-- Private Childcare Table -->
+                    <h3 class="fees-section-title benguiat-bold" style="margin-top: 40px;">Private Childcare Hours (47 Weeks Per Year)</h3>
+                    <div class="table-responsive">
+                        <table class="menu-table fees-table">
+                            <thead>
+                                <tr>
+                                    <th>Service</th>
+                                    <th>Rate</th>
+                                    <th>Includes</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="fees-time">Standard Private Childcare</td>
+                                    <td class="fees-price">£7.50 per hour</td>
+                                    <td class="fees-included">Nappies, Wipes & bibs, Cow’s milk, Fresh hot vegetarian meals</td>
+                                </tr>
+                                <tr>
+                                    <td class="fees-time">Early Start (7:30am)</td>
+                                    <td class="fees-price">Additional £4.00 per day</td>
+                                    <td class="fees-included">-</td>
+                                </tr>
+                                <tr>
+                                    <td class="fees-time">Late Finish (6:30pm)</td>
+                                    <td class="fees-price">Additional £4.00 per day</td>
+                                    <td class="fees-included">-</td>
+                                </tr>
+                                <tr>
+                                    <td class="fees-time">Weekend Babysitting</td>
+                                    <td class="fees-price">£15.00 per hour</td>
+                                    <td class="fees-included">Meals included, Nappies & wipes included<br><em>*Upfront payment required</em></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Footer Info & Funding Link -->
+                    <div class="fees-footer brush-text">
+                        <h4 class="benguiat-bold" style="color: var(--theme-green); font-size: 1.5rem;">Flexible Childcare Designed for Working Families</h4>
+                        <p style="margin-top: 10px;">Providing flexible, nurturing, and reliable childcare designed to support modern family life, including extended hours and additional weekend care options where available.</p>
+                        <p class="slogan-quote" style="margin-top: 20px; font-weight: bold; color: var(--theme-green); font-size: 1.8rem;">“Eating Right, Staying Bright.”<br><span style="font-size: 1.2rem; font-weight: normal; color: var(--text-dark);">Encouraging healthy habits from the very beginning.</span></p>
+
+                        <div class="funding-checker-box" style="margin-top: 30px; background: rgba(71, 102, 59, 0.05); padding: 20px; border-radius: 12px; border: 1px dashed var(--theme-green);">
+                            <p style="margin-bottom: 15px; font-size: 1.3rem;">To find out which childcare funding and support you may be entitled to, check the government's portal:</p>
+                            <a href="https://childcare.beststartinlife.gov.uk/" target="_blank" rel="noopener" class="checker-link benguiat-bold" style="font-size: 1.2rem;">https://childcare.beststartinlife.gov.uk/</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Page 7: Booking & Enquiry Section -->
+        <section id="booking" class="forest-section">
+            <div class="overlay-card wider-card">
+                <div class="section-header reveal-on-scroll fade-up">
+                    <h2 class="benguiat-bold">READY TO JOIN THE WINNIE'S ADVENTURES FAMILY?</h2>
+                </div>
+
+                <div class="two-column-layout layout-booking">
+                    <!-- Left Column: Showaround Description -->
+                    <div class="booking-info brush-text reveal-on-scroll slide-left delay-200">
+                        <h3 class="column-title benguiat-bold">SHOWAROUND</h3>
+                        <p>What to expect: Come and visit the place where your child will be flourishing. We believe it
+                            is important for both you and your child to explore the environment, meet the individuals
+                            caring for your little one, and experience the real feel and warmth of Winnie's Adventures.
+                        </p>
+                        <p>Choosing childcare is an important decision, and it is essential that it feels like the right
+                            fit for both your child and your family. We want you to feel comfortable, confident, and
+                            reassured knowing your child will be cared for in a safe, loving, and nurturing environment.
+                        </p>
+                        <p>Complete the enquiry form and a member of the Winnie's Adventures team will be in touch to
+                            arrange your showaround.</p>
+                            
+                        <div class="map-container" style="margin-top: 2rem;">
+                            <h4 class="benguiat-bold" style="margin-bottom: 1rem; color: #47663b; font-size: 1.2rem;">Our Location (70 Chaundler Drive, HP19 9DP, Aylesbury)</h4>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3033.7478777778056!2d-0.8280867230205412!3d51.83316028685304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876f77206d443f5%3A0xb787850d4bcbc8ff!2s70%20Chaundler%20Dr%2C%20Aylesbury%20HP19%209DP%2C%20UK!5e1!3m2!1sen!2sin!4v1781102616117!5m2!1sen!2sin" width="100%" height="250" style="border-radius: 12px; border: 3px solid #8e9c70; box-shadow: 0 4px 10px rgba(0,0,0,0.1);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Interactive Digital Enquiry Form -->
+                    <div class="booking-form-wrapper reveal-on-scroll fade-up delay-300">
+                        <div class="form-container-card">
+                            <h3 class="form-card-title benguiat-bold">ENQUIRY FORM</h3>
+
+                            <form id="enquiry-form" class="enquiry-form">
+                                <div class="form-group">
+                                    <label for="parent-name">Parent / Carer Name</label>
+                                    <input type="text" id="parent-name" name="parentName" required
+                                        placeholder="Your Full Name">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="child-name">Child's Name</label>
+                                    <input type="text" id="child-name" name="childName" required
+                                        placeholder="Child's Full Name">
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="form-group half-width">
+                                        <label for="child-dob">Child's Date of Birth</label>
+                                        <input type="date" id="child-dob" name="childDob" required
+                                            placeholder="Choose a date...">
+                                    </div>
+                                    <div class="form-group half-width">
+                                        <label for="start-date">Preferred Start Date</label>
+                                        <input type="date" id="start-date" name="startDate" required
+                                            placeholder="Choose a date...">
+                                    </div>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="form-group half-width">
+                                        <label for="phone">Phone Number</label>
+                                        <input type="tel" id="phone" name="phone" required placeholder="Contact Number">
+                                    </div>
+                                    <div class="form-group half-width">
+                                        <label for="email">Email Address</label>
+                                        <input type="email" id="email" name="email" required
+                                            placeholder="name@example.com">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label>Days</label>
+                                    <div class="checkbox-group">
+                                        <label class="checkbox-label"><input type="checkbox" name="days" value="Monday">
+                                            Mon</label>
+                                        <label class="checkbox-label"><input type="checkbox" name="days"
+                                                value="Tuesday"> Tue</label>
+                                        <label class="checkbox-label"><input type="checkbox" name="days"
+                                                value="Wednesday"> Wed</label>
+                                        <label class="checkbox-label"><input type="checkbox" name="days"
+                                                value="Thursday"> Thu</label>
+                                        <label class="checkbox-label"><input type="checkbox" name="days" value="Friday">
+                                            Fri</label>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="hours">Hours</label>
+                                    <select id="hours" name="hours" required>
+                                        <option value="" disabled selected>Select...</option>
+                                        <option value="Full Day (8:00 AM - 6:00 PM)">Full Day (8am-6pm)</option>
+                                        <option value="Morning Session (8:00 AM - 1:00 PM)">Morning (8am-1pm)</option>
+                                        <option value="Afternoon Session (1:00 PM - 6:00 PM)">Afternoon (1-6pm)</option>
+                                        <option value="Flexible / Other Hours">Flexible / Other</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="needs">Allergies, Medical Conditions, or Additional Needs</label>
+                                    <textarea id="needs" name="needs" rows="3"
+                                        placeholder="Please list any dietary needs, allergies, medical conditions or write 'None'"></textarea>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="additional-info">Additional Information</label>
+                                    <textarea id="additional-info" name="additionalInfo" rows="3"
+                                        placeholder="Any extra queries or comments..."></textarea>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="form-group half-width">
+                                        <label for="signature">Parent / Carer Signature</label>
+                                        <input type="text" id="signature" name="signature" required
+                                            placeholder="Type name to sign digitally" class="signature-input">
+                                    </div>
+                                    <div class="form-group half-width">
+                                        <label for="form-date">Date</label>
+                                        <input type="date" id="form-date" name="formDate" required>
+                                    </div>
+                                </div>
+
+                                <button type="submit" class="submit-btn benguiat-bold">Submit Enquiry</button>
+                            </form>
+
+                            <div class="form-contact-footer brush-text">
+                                <p>Or directly email us at: <a
+                                        href="mailto:winniesadventures06@gmail.com">winniesadventures06@gmail.com</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-container">
+            <p class="benguiat-bold">&copy; 2026 Winnie's Adventures Childminding. All Rights Reserved.</p>
+            <p class="brush-text footer-email">Email: <a
+                    href="mailto:winniesadventures06@gmail.com">winniesadventures06@gmail.com</a></p>
+            <p class="footer-location brush-text">Located at 70 Chaundler Drive, HP19 9DP, Aylesbury</p>
+        </div>
+    </footer>
+
+    <!-- Form Submission Success Dialog / Modal -->
+    <div id="success-modal" class="modal-overlay" aria-hidden="true" role="dialog">
+        <div class="modal-card">
+            <h3 class="benguiat-bold">Thank You!</h3>
+            <p class="brush-text">Your enquiry has been successfully sent. The Winnie's Adventures team will get back to
+                you shortly to schedule your showaround.</p>
+            <button id="close-modal-btn" class="benguiat-bold">Close</button>
+        </div>
+    </div>
+
+    <!-- Flatpickr Date Picker JS -->
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            // REPLACE "YOUR_PUBLIC_KEY" with your actual public key from EmailJS
+            emailjs.init("oOgZ31j4OGsztYM7L");
+        })();
+    </script>
+
+    <!-- Main Custom Script -->
+    <script src="script.js?v=3"></script>
+</body>
+
+</html>
